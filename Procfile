@@ -1,1 +1,1 @@
-web: ./Angle/bin/www
+web: ./Angel/bin/www

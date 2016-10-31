@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 var uuid_generator = require('uuid');
-mongoose.connect('mongodb://localhost/angle');
+mongoose.connect('mongodb://Marcoli:mLab110@ds019053.mlab.com:19053/dreamangle');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console," connection error:"));
